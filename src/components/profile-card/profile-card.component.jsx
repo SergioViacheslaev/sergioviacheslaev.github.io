@@ -21,7 +21,7 @@ const ProfileCard = () => {
             gridColumnGap={10}
             textAlign={{base: 'center', md: 'inherit'}}>
             <GridItem alignSelf="center">
-                <Image src={profilePic} borderRadius="full" alt="Shubham Tarade"/>
+                <Image src={profilePic} borderRadius="full" alt="Sergei Viacheslaev"/>
             </GridItem>
             <GridItem paddingTop="30px" alignSelf="center">
                 <Text fontSize="2xl" fontWeight="bold">
