@@ -23,17 +23,16 @@ const ProfileCard = () => {
             <GridItem alignSelf="center">
                 <Image src={profilePic} borderRadius="full" alt="Sergei Viacheslaev"/>
             </GridItem>
-            <GridItem paddingTop="30px" alignSelf="center">
-                <Text fontSize="2xl" fontWeight="bold">
-                    Hello !
-                </Text>
-                {count ? (
-                    <Typist
-                        cursor={{show: false, hideWhenDone: true}}
-                        onTypingDone={() => setCount(0)}
-                    >
+            <GridItem paddingTop="1px" alignSelf="top">
+                {/*<Text fontSize="2xl" fontWeight="bold">*/}
+                {/*    Hello !*/}
+                {/*</Text>*/}
+                {count ? (<Typist cursor={{show: false, hideWhenDone: true}}
+                                  onTypingDone={() => setCount(0)}>
             <span style={{fontSize: '24px', fontWeight: 'bold', color: '#1da1f2'}}>
-              I am{' '}
+              Hello and welcome !
+              <br/>
+              I am {' '}
                 <span
                     style={{
                         backgroundColor: `${typedTextBgColor}`,
@@ -43,7 +42,14 @@ const ProfileCard = () => {
                     }}
                 >
                 Sergei Viacheslaev
-                <Typist.Backspace count={7} delay={3000}/>
+                <Typist.Delay ms={99999999} />
+                {/*<Typist.Backspace count={18} delay={2500} />*/}
+                {/*Java developer*/}
+                {/*<Typist.Backspace count={17} delay={2500} />*/}
+                {/*Software engineer*/}
+                {/*<Typist.Backspace count={14} delay={2500} />*/}
+                {/*IT specialist*/}
+                {/*<Typist.Backspace count={18} delay={6000} />*/}
               </span>
             </span>
                     </Typist>
