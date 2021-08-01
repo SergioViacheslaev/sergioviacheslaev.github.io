@@ -41,7 +41,9 @@ const Header = () => {
                 >
                     <Icon as={colorMode === 'light' ? FaMoon : FaSun}/>
                 </Button>
-                <Socials/>
+                <Flex marginLeft="30">
+                    <Socials/>
+                </Flex>
             </Flex>
         </Flex>
     );
