@@ -1,13 +1,11 @@
 import React, {useEffect, useState} from 'react';
-import {Grid, GridItem, Image, Text, useColorModeValue,} from '@chakra-ui/react';
+import {Grid, GridItem, Image, Text} from '@chakra-ui/react';
 import Typist from 'react-typist';
 
 import profilePic from '../../assets/developer_avatar.jpg';
 
 const ProfileCard = () => {
     const [count, setCount] = useState(0);
-    const typedTextBgColor = useColorModeValue('#1da1f2', '#edf2f7');
-    const typedTextColor = useColorModeValue('#edf2f7', '#1da1f2');
 
     useEffect(() => {
         setCount(1);
@@ -33,24 +31,20 @@ const ProfileCard = () => {
               Hello and welcome !
               <br/>
               I am {' '}
-                <span
-                    style={{
-                        backgroundColor: `${typedTextBgColor}`,
-                        padding: '4px',
-                        borderRadius: '5px',
-                        color: `${typedTextColor}`,
-                    }}
-                >
+                <span style={{fontSize: '24px', fontWeight: 'bold', color: '#00BFFF'}}>
                 Sergei Viacheslaev
-                <Typist.Delay ms={99999999} />
-                {/*<Typist.Backspace count={18} delay={2500} />*/}
-                {/*Java developer*/}
-                {/*<Typist.Backspace count={17} delay={2500} />*/}
-                {/*Software engineer*/}
-                {/*<Typist.Backspace count={14} delay={2500} />*/}
-                {/*IT specialist*/}
-                {/*<Typist.Backspace count={18} delay={6000} />*/}
-              </span>
+                </span>
+                {/*<Typist.Delay ms={99999999}/>*/}
+                    <Typist.Backspace count={18} delay={2500} />
+                <span style={{fontSize: '24px', fontWeight: 'bold', color: '#FF8C00'}}>
+                Java developer
+                </span>
+
+                    <Typist.Backspace count={14} delay={2500} />
+                    {/*Software engineer*/}
+                    {/*<Typist.Backspace count={14} delay={2500} />*/}
+                    {/*IT specialist*/}
+                    {/*<Typist.Backspace count={18} delay={6000} />*/}
             </span>
                     </Typist>
                 ) : (
