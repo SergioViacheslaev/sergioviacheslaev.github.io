@@ -2,15 +2,15 @@ import React from 'react';
 import {
     Button,
     Flex,
-    Icon,
+    Icon, Text,
     useColorMode
 } from '@chakra-ui/react';
 import {FaSun, FaMoon} from 'react-icons/fa';
 
 import NavItem from '../nav-item/nav-item.component';
+import Socials from "../socials/socials.component";
 
 const navItems = [
-    {page: 'Blogs', routeUrl: '/blogs'},
     {page: 'Projects', routeUrl: '/projects'},
     //todo: Edit CV link
     {
@@ -41,6 +41,7 @@ const Header = () => {
                 >
                     <Icon as={colorMode === 'light' ? FaMoon : FaSun}/>
                 </Button>
+                <Socials/>
             </Flex>
         </Flex>
     );
