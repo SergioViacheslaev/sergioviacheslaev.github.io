@@ -1,21 +1,22 @@
 import React from 'react';
-import {
-    Button,
-    Flex,
-    Icon, useColorMode
-} from '@chakra-ui/react';
-import {FaSun, FaMoon} from 'react-icons/fa';
+import {Button, Flex, Icon, useColorMode} from '@chakra-ui/react';
+import {FaMoon, FaSun} from 'react-icons/fa';
 
 import NavItem from '../nav-item/nav-item.component';
 import Socials from "../socials/socials.component";
 
 const navItems = [
-    {page: 'Projects', routeUrl: '/projects'},
-    //todo: Edit CV link
+    {
+        page: 'Intro',
+        routeUrl: '/'
+    },
+    {
+        page: 'Projects',
+        routeUrl: '/projects'
+    },
     {
         page: 'Resume',
-        routeUrl:
-            'https://github.com/SergioViacheslaev',
+        routeUrl: 'https://github.com/SergioViacheslaev'
     },
 ];
 
