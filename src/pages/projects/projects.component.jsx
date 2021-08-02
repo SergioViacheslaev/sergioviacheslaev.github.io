@@ -15,6 +15,7 @@ const ProjectsPage = () => {
             previewImg: telegramBotPreviewPic,
             githubIcon: telegramBotGithubPic,
             description: "Finds train tickets and notifies if price changes.",
+            env: "Java 12, Spring Boot, Spring Data, Mongo Cloud, RZD API, lombok, Gradle",
             link: "https://github.com/SergioViacheslaev/RZDTicketsMonitoring-TelegramBot"
         },
         {
@@ -22,6 +23,7 @@ const ProjectsPage = () => {
             previewImg: filesAnalyzerPreviewPic,
             githubIcon: filesAnalyzerGithubPic,
             description: "This application can find and read files with plain text inside (txt, log). Supports reading large files (more than 1 GB) and search by different criterias.",
+            env: "Java 12, OpenJFX, RichTextFx, lombok, Maven",
             link: "https://github.com/SergioViacheslaev/JavaFX-FilesAnalyzer"
         },
         {
@@ -46,10 +48,19 @@ const ProjectsPage = () => {
                             {project.title}
                             </span>
                         </Heading>
-                        <Image src={project.previewImg}/>
                         <Text>
                             {project.description}
                         </Text>
+                        <Image src={project.previewImg}/>
+                        <Text py={0}>
+                            <span style={{fontSize: '18px', fontWeight: 'bold', color: '#1da1f2'}}>
+                            Env: {''}
+                            </span>
+                            <Text as="abbr">
+                                {project.env}
+                            </Text>
+                        </Text>
+
                         <ExternalLink href={project.link}>
                             <Image src={project.githubIcon}/>
                         </ExternalLink>
