@@ -4,7 +4,7 @@ import { Link, withRouter } from 'react-router-dom';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 
 const NavItem = ({ itemName, routeUrl, location }) => {
-  return itemName !== 'Resume' ? (
+  return itemName !== 'CV' ? (
     <Link to={routeUrl}>
       <Button
         marginLeft={{ base: '6px', md: '12px' }}

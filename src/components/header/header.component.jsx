@@ -15,7 +15,7 @@ const navItems = [
         routeUrl: '/projects'
     },
     {
-        page: 'Resume',
+        page: 'CV',
         routeUrl: 'https://github.com/SergioViacheslaev'
     },
 ];
