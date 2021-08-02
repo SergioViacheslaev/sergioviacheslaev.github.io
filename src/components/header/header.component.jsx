@@ -2,8 +2,7 @@ import React from 'react';
 import {
     Button,
     Flex,
-    Icon, Text,
-    useColorMode
+    Icon, useColorMode
 } from '@chakra-ui/react';
 import {FaSun, FaMoon} from 'react-icons/fa';
 
