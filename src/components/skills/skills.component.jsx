@@ -1,35 +1,49 @@
 import React from 'react';
-import {Col, Container, Row} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
+import {backendSkillsList, devOpsSkillsList, frontendSkillsList} from '../../utils/skillsImgUtils';
+import {Flex, Heading} from "@chakra-ui/layout";
 import IconCard from '../IconCard';
-import {skillsList} from '../../utils/helperList';
-import {Flex} from "@chakra-ui/layout";
+import {Grid} from "@chakra-ui/react";
 
 
 const Skills = () => {
     return (
-        <Container
-            className="mt-5"
-            style={{
-                // backgroundColor: "#f9f9f9"
-                // height: '100vh'
-                // , position: 'absolute', top: 0, bottom: 0, left: 0, right: 0
-            }}
-        >
-            {/* <h2 className="color-customBlue">Tech stack experience</h2> */}
+        <Container>
+            <Heading size="lg" paddingLeft={5} pb={5}>Skills</Heading>
+            <Grid templateColumns="repeat(3, 1fr)" gap={5}>
 
-            <Row xs={4} md={4}>
-                <Col>
-                    <Row className="justify-content-evenly">
-                        <Flex maxW="240px" justify="space-between">
-                            {skillsList.map(s => (
-                                <IconCard key={s.label} src={s.src}/>
-                            ))}
-                        </Flex>
-                    </Row>
-                </Col>
-            </Row>
+            <Flex maxW="240px" paddingLeft={10}>
+                <Flex>
+                            <span style={{fontSize: '18px', color: '#007EFC'}}>
+                            BE:
+                            </span>
+                    {backendSkillsList.map(s => (
+                        <IconCard key={s.label} src={s.src}/>
+                    ))}
+                </Flex>
+            </Flex>
+            <Flex maxW="240px" paddingLeft={10} pb={10}>
+                <Flex>
+                            <span style={{fontSize: '18px', color: '#007EFC'}}>
+                            FE:
+                            </span>
+                    {frontendSkillsList.map(s => (
+                        <IconCard key={s.label} src={s.src}/>
+                    ))}
+                </Flex>
+            </Flex>
+            <Flex maxW="240px" paddingLeft={10} pb={5}>
+                <Flex>
+                            <span style={{fontSize: '18px', color: '#007EFC'}}>
+                            DevOps:
+                            </span>
+                    {devOpsSkillsList.map(s => (
+                        <IconCard key={s.label} src={s.src}/>
+                    ))}
+                </Flex>
+            </Flex>
+            </Grid>
         </Container>
-
     )
 };
 

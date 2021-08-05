@@ -5,13 +5,8 @@ const IconCard = ({src}) => {
         <div>
             <div
                 className="d-flex justify-content-center align-items-center m-2"
-                style={{width: 90, height: 90}}
-                // style={{ background: `url(${src}) no-repeat center center`, width: 150, height: 150 }}
-            >
-                {/* <center> */}
-
+                style={{width: 48, height: 48}}>
                 <img className="img-fluid skillsImg" src={src} alt="icon"/>
-                {/* </center> */}
             </div>
         </div>
     );

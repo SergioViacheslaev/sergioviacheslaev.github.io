@@ -17,7 +17,7 @@ const ProfileCard = () => {
             templateColumns={{base: '1fr', md: '2fr 2fr', lg: '1fr 3fr'}}
             mt={10}
             p={4}
-            paddingBottom={20}
+            paddingBottom={10}
             gridColumnGap={10}
             textAlign={{base: 'center', md: 'inherit'}}>
             <GridItem alignSelf="center">
