@@ -14,7 +14,7 @@ const Skills = () => {
 
                 <Flex maxW="240px" paddingLeft={10}>
                     <Flex>
-                            <span style={{fontSize: '18px', color: '#007EFC'}}>
+                            <span style={{fontSize: '18px', fontWeight: 'bold', color: '#007EFC'}}>
                             BE:
                             </span>
                         {backendSkillsList.map(s => (
@@ -26,7 +26,7 @@ const Skills = () => {
                 </Flex>
                 <Flex maxW="240px" paddingLeft={10} pb={10}>
                     <Flex>
-                            <span style={{fontSize: '18px', color: '#007EFC'}}>
+                            <span style={{fontSize: '18px', fontWeight: 'bold', color: '#007EFC'}}>
                             FE:
                             </span>
                         {frontendSkillsList.map(s => (
@@ -38,7 +38,7 @@ const Skills = () => {
                 </Flex>
                 <Flex maxW="240px" paddingLeft={10} pb={5}>
                     <Flex>
-                            <span style={{fontSize: '18px', color: '#007EFC'}}>
+                            <span style={{fontSize: '18px', fontWeight: 'bold', color: '#007EFC'}}>
                             DevOps:
                             </span>
                         {devOpsSkillsList.map(s => (
