@@ -6,7 +6,7 @@ const IconCard = ({src}) => {
             <div
                 className="d-flex justify-content-center align-items-center m-2"
                 style={{width: 48, height: 48}}>
-                <img className="img-fluid skillsImg" src={src} alt="icon"/>
+                <img src={src} alt="icon"/>
             </div>
         </div>
     );

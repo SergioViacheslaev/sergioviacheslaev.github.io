@@ -42,7 +42,7 @@ const Certifications = () => {
                 <Flex paddingLeft={5}>
                     {certificationsList.map(s => (
                         <ExternalLink href={s.link}>
-                            <Box boxSize="150">
+                            <Box boxSize="150" p={1}>
                                 <img src={s.src} alt="Logo"/>
                             </Box>
                         </ExternalLink>

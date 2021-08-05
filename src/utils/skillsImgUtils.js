@@ -1,6 +1,6 @@
 export const frontendSkillsList = [
     {
-        label: 'Javascript',
+        label: 'JavaScript',
         src: 'https://img.icons8.com/color/64/000000/javascript.png',
     },
     {
@@ -8,7 +8,7 @@ export const frontendSkillsList = [
         src: 'https://img.icons8.com/color/64/000000/react-native.png',
     },
     {
-        label: 'HTML5',
+        label: 'HTML',
         src: 'https://seeklogo.com/images/H/html5-logo-EF92D240D7-seeklogo.com.png'
     },
 
@@ -20,7 +20,7 @@ export const backendSkillsList = [
         src: 'https://img.icons8.com/color/64/000000/java.png',
     },
     {
-        label: 'Spring',
+        label: 'Spring Boot,Cloud,Security,Data',
         src: 'https://img.icons8.com/color/48/000000/spring-logo.png',
     },
     {

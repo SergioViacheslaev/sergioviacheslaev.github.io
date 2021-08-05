@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container} from 'react-bootstrap';
+import {Container, Tooltip} from 'react-bootstrap';
 import {backendSkillsList, devOpsSkillsList, frontendSkillsList} from '../../utils/skillsImgUtils';
 import {Flex, Heading} from "@chakra-ui/layout";
 import IconCard from '../IconCard';
@@ -12,36 +12,42 @@ const Skills = () => {
             <Heading size="lg" paddingLeft={5} pb={5}>Skills</Heading>
             <Grid templateColumns="repeat(3, 1fr)" gap={5}>
 
-            <Flex maxW="240px" paddingLeft={10}>
-                <Flex>
+                <Flex maxW="240px" paddingLeft={10}>
+                    <Flex>
                             <span style={{fontSize: '18px', color: '#007EFC'}}>
                             BE:
                             </span>
-                    {backendSkillsList.map(s => (
-                        <IconCard key={s.label} src={s.src}/>
-                    ))}
+                        {backendSkillsList.map(s => (
+                            <Tooltip title={s.label} id={s.label}>
+                                <IconCard key={s.label} src={s.src}/>
+                            </Tooltip>
+                        ))}
+                    </Flex>
                 </Flex>
-            </Flex>
-            <Flex maxW="240px" paddingLeft={10} pb={10}>
-                <Flex>
+                <Flex maxW="240px" paddingLeft={10} pb={10}>
+                    <Flex>
                             <span style={{fontSize: '18px', color: '#007EFC'}}>
                             FE:
                             </span>
-                    {frontendSkillsList.map(s => (
-                        <IconCard key={s.label} src={s.src}/>
-                    ))}
+                        {frontendSkillsList.map(s => (
+                            <Tooltip title={s.label} id={s.label}>
+                                <IconCard key={s.label} src={s.src}/>
+                            </Tooltip>
+                        ))}
+                    </Flex>
                 </Flex>
-            </Flex>
-            <Flex maxW="240px" paddingLeft={10} pb={5}>
-                <Flex>
+                <Flex maxW="240px" paddingLeft={10} pb={5}>
+                    <Flex>
                             <span style={{fontSize: '18px', color: '#007EFC'}}>
                             DevOps:
                             </span>
-                    {devOpsSkillsList.map(s => (
-                        <IconCard key={s.label} src={s.src}/>
-                    ))}
+                        {devOpsSkillsList.map(s => (
+                            <Tooltip title={s.label} id={s.label}>
+                                <IconCard key={s.label} src={s.src}/>
+                            </Tooltip>
+                        ))}
+                    </Flex>
                 </Flex>
-            </Flex>
             </Grid>
         </Container>
     )
