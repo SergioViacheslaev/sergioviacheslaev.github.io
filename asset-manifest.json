@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.811c0cd4.chunk.css",
-    "main.js": "/static/js/main.80d01e6d.chunk.js",
-    "main.js.map": "/static/js/main.80d01e6d.chunk.js.map",
+    "main.js": "/static/js/main.bbc25169.chunk.js",
+    "main.js.map": "/static/js/main.bbc25169.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4e8f0d05.js",
     "runtime-main.js.map": "/static/js/runtime-main.4e8f0d05.js.map",
-    "static/js/2.2ccc3f12.chunk.js": "/static/js/2.2ccc3f12.chunk.js",
-    "static/js/2.2ccc3f12.chunk.js.map": "/static/js/2.2ccc3f12.chunk.js.map",
+    "static/js/2.23dd217c.chunk.js": "/static/js/2.23dd217c.chunk.js",
+    "static/js/2.23dd217c.chunk.js.map": "/static/js/2.23dd217c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.811c0cd4.chunk.css.map": "/static/css/main.811c0cd4.chunk.css.map",
-    "static/js/2.2ccc3f12.chunk.js.LICENSE.txt": "/static/js/2.2ccc3f12.chunk.js.LICENSE.txt",
+    "static/js/2.23dd217c.chunk.js.LICENSE.txt": "/static/js/2.23dd217c.chunk.js.LICENSE.txt",
     "static/media/OCA.f52dc34e.png": "/static/media/OCA.f52dc34e.png",
     "static/media/OCP.8d2131a2.png": "/static/media/OCP.8d2131a2.png",
     "static/media/developer_avatar.2863fbde.jpg": "/static/media/developer_avatar.2863fbde.jpg",
@@ -17,13 +17,15 @@
     "static/media/filesAnalyzerPreviewPic.ff8d1080.jpg": "/static/media/filesAnalyzerPreviewPic.ff8d1080.jpg",
     "static/media/linkedinLearning.8fa602e8.png": "/static/media/linkedinLearning.8fa602e8.png",
     "static/media/otus.cc6d0663.png": "/static/media/otus.cc6d0663.png",
+    "static/media/status-monitorGithubPic.9afe2911.jpg": "/static/media/status-monitorGithubPic.9afe2911.jpg",
+    "static/media/status-monitorPreviewPic.c3a8d57f.jpg": "/static/media/status-monitorPreviewPic.c3a8d57f.jpg",
     "static/media/telegramBotGithubPic.f5ed15d0.jpg": "/static/media/telegramBotGithubPic.f5ed15d0.jpg",
     "static/media/telegramBotPreviewPic.8908adb8.jpg": "/static/media/telegramBotPreviewPic.8908adb8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4e8f0d05.js",
-    "static/js/2.2ccc3f12.chunk.js",
+    "static/js/2.23dd217c.chunk.js",
     "static/css/main.811c0cd4.chunk.css",
-    "static/js/main.80d01e6d.chunk.js"
+    "static/js/main.bbc25169.chunk.js"
   ]
 }
