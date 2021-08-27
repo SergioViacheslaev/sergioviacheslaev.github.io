@@ -7,6 +7,8 @@ import telegramBotGithubPic from "../../assets/projects-images/telegram-bot/tele
 import telegramBotPreviewPic from "../../assets/projects-images/telegram-bot/telegramBotPreviewPic.jpg"
 import filesAnalyzerPreviewPic from "../../assets/projects-images/files-analyzer/filesAnalyzerPreviewPic.jpg"
 import filesAnalyzerGithubPic from "../../assets/projects-images/files-analyzer/filesAnalyzerGithubPic.jpg"
+import statusMonitorGithubPic from "../../assets/projects-images/status-monitor/status-monitorGithubPic.jpg"
+import statusMonitorPreviewPic from "../../assets/projects-images/status-monitor/status-monitorPreviewPic.jpg"
 
 const ProjectsPage = () => {
     const projectsList = [
@@ -19,6 +21,14 @@ const ProjectsPage = () => {
             link: "https://github.com/SergioViacheslaev/RZDTicketsMonitoring-TelegramBot"
         },
         {
+            title: "Services status Monitor",
+            previewImg: statusMonitorPreviewPic,
+            githubIcon: statusMonitorGithubPic,
+            description: "Monitors and shows statuses of the services",
+            env: "Kotlin, SpringBoot, Spring Security, Spring Data, WebSockets, JS, Jquery, MongoDB, Swagger, Gradle",
+            link: "https://github.com/SergioViacheslaev/services-status-monitor"
+        },
+        {
             title: "Files Analyzer",
             previewImg: filesAnalyzerPreviewPic,
             githubIcon: filesAnalyzerGithubPic,
@@ -26,13 +36,6 @@ const ProjectsPage = () => {
             env: "Java 12, OpenJFX, RichTextFx, lombok, Maven",
             link: "https://github.com/SergioViacheslaev/JavaFX-FilesAnalyzer"
         },
-        {
-            title: "C",
-            previewImg: "",
-            githubIcon: "",
-            description: "Desc C",
-            link: "www.google.com"
-        }
 
     ]
 
