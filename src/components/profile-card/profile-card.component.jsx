@@ -46,6 +46,10 @@ const ProfileCard = () => {
                  <Typist.Backspace count={16} delay={2500}/>
                     interested in {''}
                 <span style={{fontSize: '24px', fontWeight: 'bold', color: '#FF8C00'}}>
+                    Backend {''}
+                  </span>
+                and {''}
+                <span style={{fontSize: '24px', fontWeight: 'bold', color: '#FF8C00'}}>
                     Full-stack {''}
                   </span>
                     development
