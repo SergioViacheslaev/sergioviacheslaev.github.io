@@ -13,20 +13,20 @@ import statusMonitorPreviewPic from "../../assets/projects-images/status-monitor
 const ProjectsPage = () => {
     const projectsList = [
         {
+            title: "Services status Monitor",
+            previewImg: statusMonitorPreviewPic,
+            githubIcon: statusMonitorGithubPic,
+            description: "Monitors and shows statuses of the services",
+            env: "Kotlin, SpringBoot, Spring Security, Spring Data, WebSockets, JS, Jquery, MongoDB, Swagger, JUnit, Mockito, Gradle",
+            link: "https://github.com/SergioViacheslaev/services-status-monitor"
+        },
+        {
             title: "RZD Tickets Telegram-bot",
             previewImg: telegramBotPreviewPic,
             githubIcon: telegramBotGithubPic,
             description: "Finds train tickets and notifies if price changes.",
             env: "Java 12, Spring Boot, Spring Data, Mongo Cloud, RZD API, lombok, Gradle",
             link: "https://github.com/SergioViacheslaev/RZDTicketsMonitoring-TelegramBot"
-        },
-        {
-            title: "Services status Monitor",
-            previewImg: statusMonitorPreviewPic,
-            githubIcon: statusMonitorGithubPic,
-            description: "Monitors and shows statuses of the services",
-            env: "Kotlin, SpringBoot, Spring Security, Spring Data, WebSockets, JS, Jquery, MongoDB, Swagger, Gradle",
-            link: "https://github.com/SergioViacheslaev/services-status-monitor"
         },
         {
             title: "Files Analyzer",
