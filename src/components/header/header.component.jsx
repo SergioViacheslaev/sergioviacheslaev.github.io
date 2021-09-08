@@ -16,7 +16,7 @@ const navItems = [
     },
     {
         page: 'CV',
-        routeUrl: 'https://github.com/SergioViacheslaev'
+        routeUrl: 'https://drive.google.com/file/d/1mjLW1KPJM1d8fQU0rjvNxGWFVglXIJbW/view?usp=sharing'
     },
 ];
 
