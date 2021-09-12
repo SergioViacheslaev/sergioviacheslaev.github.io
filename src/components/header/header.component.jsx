@@ -16,7 +16,7 @@ const navItems = [
     },
     {
         page: 'CV',
-        routeUrl: 'https://drive.google.com/file/d/1mjLW1KPJM1d8fQU0rjvNxGWFVglXIJbW/view?usp=sharing'
+        routeUrl: 'https://drive.google.com/file/d/1eYP3rN3dU_CH1CueeXPtSSZbD6dp1RiQ/view?usp=sharing'
     },
 ];
 
