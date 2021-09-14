@@ -14,7 +14,7 @@ const socialsInfo = [
     },
     {
         name: 'linkedin',
-        socialUrl: 'https://www.linkedin.com/in/sergei-viacheslaev-2109a01a1/',
+        socialUrl: 'https://www.linkedin.com/in/sergei-viacheslaev/',
         svgIcon: FaLinkedin,
         color: 'linkedin',
     },
