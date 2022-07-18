@@ -16,7 +16,7 @@ const navItems = [
     },
     {
         page: 'CV',
-        routeUrl: 'https://drive.google.com/file/d/1LISs2yVvop-NyklsZDTlN0UBWR3m4Tri/view?usp=sharing'
+        routeUrl: '/underconstruction'
     },
 ];
 
