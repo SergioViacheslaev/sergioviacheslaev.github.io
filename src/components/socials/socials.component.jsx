@@ -3,7 +3,7 @@ import {Box, Flex} from '@chakra-ui/react';
 
 import SociaLink from '../social-link/social-link.component';
 
-import {FaGithubSquare, FaLinkedin, FaYoutubeSquare,} from 'react-icons/fa';
+import {FaCameraRetro, FaGithubSquare, FaLinkedin, FaYoutubeSquare,} from 'react-icons/fa';
 
 const socialsInfo = [
     {
@@ -23,6 +23,12 @@ const socialsInfo = [
         socialUrl: 'https://www.youtube.com/channel/UCsAkGmX4s6yxdZqX0AqBg4w',
         svgIcon: FaYoutubeSquare,
         color: 'red',
+    },
+    {
+        name: 'website',
+        socialUrl: 'https://sergeyvyacheslaev.com',
+        svgIcon: FaCameraRetro,
+        color: 'facebook',
     }
 ];
 
