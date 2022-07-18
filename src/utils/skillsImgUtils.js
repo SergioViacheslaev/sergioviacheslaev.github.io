@@ -24,6 +24,14 @@ export const backendSkillsList = [
         src: 'https://img.icons8.com/color/48/000000/spring-logo.png',
     },
     {
+        label: 'AWS',
+        src: 'https://img.icons8.com/color/64/000000/amazon-web-services.png',
+    },
+    {
+        label: 'TypeScript',
+        src: 'https://img.icons8.com/color/64/000000/typescript.png',
+    },
+    {
         label: 'Kotlin',
         src: 'https://img.icons8.com/color/64/000000/kotlin.png',
     },
@@ -46,6 +54,14 @@ export const devOpsSkillsList = [
     {
         label: 'GitLab CI',
         src: 'https://img.icons8.com/color/48/000000/gitlab.png',
+    },
+    {
+        label: 'Terraform',
+        src: 'https://img.icons8.com/color/64/000000/terraform.png',
+    },
+    {
+        label: 'Bitbucket',
+        src: 'https://img.icons8.com/color/48/000000/bitbucket.png',
     },
 
 ]

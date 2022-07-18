@@ -9,7 +9,7 @@ import {Grid} from "@chakra-ui/react";
 const Skills = () => {
     return (
         <Container>
-            <Heading size="lg" paddingLeft={5} pb={5}>Skills:</Heading>
+            <Heading size="lg" paddingLeft={5} pb={5}>Skills</Heading>
             <Grid templateColumns="repeat(3, 1fr)" gap={5}>
 
                 <Flex maxW="240px" paddingLeft={10}>
