@@ -20,7 +20,7 @@ const socialsInfo = [
     },
     {
         name: 'youtube',
-        socialUrl: 'https://www.youtube.com/channel/UCsAkGmX4s6yxdZqX0AqBg4w',
+        socialUrl: 'https://www.youtube.com/playlist?list=PLHkGizioHWF0eImDkUinfDr4ah-YWYHjk',
         svgIcon: FaYoutubeSquare,
         color: 'red',
     },
