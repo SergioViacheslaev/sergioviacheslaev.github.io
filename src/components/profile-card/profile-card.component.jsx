@@ -40,6 +40,11 @@ const ProfileCard = () => {
                    developer
                 <Typist.Backspace count={14} delay={2500}/>
                   <span style={{fontSize: '24px', fontWeight: 'bold', color: '#FF8C00'}}>
+                    TypeScript {''}
+                  </span>
+                    developer
+                <Typist.Backspace count={20} delay={2500}/>
+                  <span style={{fontSize: '24px', fontWeight: 'bold', color: '#FF8C00'}}>
                     Kotlin {''}
                   </span>
                     developer
@@ -48,7 +53,7 @@ const ProfileCard = () => {
                 <span style={{fontSize: '24px', fontWeight: 'bold', color: '#FF8C00'}}>
                     Backend {''}
                   </span>
-                and {''}
+                or {''}
                 <span style={{fontSize: '24px', fontWeight: 'bold', color: '#FF8C00'}}>
                     Full-stack {''}
                   </span>
