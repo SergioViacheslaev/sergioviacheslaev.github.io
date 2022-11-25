@@ -25,7 +25,7 @@ const Certifications = () => {
         {
             label: 'OTUS',
             src: otusImg,
-            link: 'https://otus.ru/async/docs.certificate?uid=1670c803eece42a7ae4fcd2bff653fce&lang=ru-ru',
+            link: 'https://drive.google.com/file/d/1SibUv2rs3sdnlp_cQO-Nb0gUUGVTWCtD/view?usp=share_link',
         },
         {
             label: 'Kotlin',
