@@ -17,7 +17,7 @@ export const frontendSkillsList = [
 export const backendSkillsList = [
     {
         label: 'Java',
-        src: 'https://img.icons8.com/color/64/000000/java.png',
+        src: 'https://img.icons8.com/color/48/null/java-coffee-cup-logo--v1.png',
     },
     {
         label: 'Spring Boot,Cloud,Security,Data',
