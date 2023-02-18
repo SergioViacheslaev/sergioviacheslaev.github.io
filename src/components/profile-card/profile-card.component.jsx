@@ -3,7 +3,8 @@ import Typist from 'react-typist';
 import {Grid, GridItem, Image, List, ListIcon, ListItem} from '@chakra-ui/react';
 import {MdCheckCircle} from "react-icons/all";
 
-import profilePic from '../../assets/developer_avatar.jpg';
+// import profilePic from '../../assets/developer_avatar.jpg';
+import profilePic from '../../assets/developer_avatar_2.jpg';
 
 const ProfileCard = () => {
     const [count, setCount] = useState(0);
