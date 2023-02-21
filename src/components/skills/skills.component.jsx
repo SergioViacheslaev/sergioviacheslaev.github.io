@@ -36,7 +36,7 @@ const Skills = () => {
                         ))}
                     </Flex>
                 </Flex>
-                <Flex maxW="240px" paddingLeft={10} pb={5}>
+                <Flex maxW="240px">
                     <Flex>
                             <span style={{fontSize: '18px', fontWeight: 'bold', color: '#007EFC'}}>
                             DevOps:
