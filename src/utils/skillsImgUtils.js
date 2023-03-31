@@ -9,7 +9,7 @@ export const frontendSkillsList = [
     },
     {
         label: 'HTML',
-        src: 'https://seeklogo.com/images/H/html5-logo-EF92D240D7-seeklogo.com.png'
+        src: 'https://img.icons8.com/color/64/000000/html-5.png'
     },
 
 ]
