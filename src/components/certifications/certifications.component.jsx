@@ -15,7 +15,7 @@ const Certifications = () => {
         {
             label: 'OCP',
             src: ocpImg,
-            link: 'https://www.credly.com/badges/9a8840e9-0470-41af-945a-192d0a8f20de',
+            link: 'https://catalog-education.oracle.com/pls/certview/sharebadge?id=CB21D4267F2081090B7436781EF64A4AAA0BF6060CE5F9137945C17D981127C3',
         },
         {
             label: 'OCA',
