@@ -27,16 +27,16 @@ const NavItem = ({itemName, routeUrl, location}) => {
             {itemName}
         </Button>
     );
-    return (
-        <Link to={routeUrl}>
-            <Button
-                marginLeft={{base: '6px', md: '12px'}}
-                variant={location.pathname === routeUrl ? 'outline' : 'solid'}
-            >
-                {itemName}
-            </Button>
-        </Link>
-    );
+    // return (
+    //     <Link to={routeUrl}>
+    //         <Button
+    //             marginLeft={{base: '6px', md: '12px'}}
+    //             variant={location.pathname === routeUrl ? 'outline' : 'solid'}
+    //         >
+    //             {itemName}
+    //         </Button>
+    //     </Link>
+    // );
 };
 
 export default withRouter(NavItem);
