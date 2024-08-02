@@ -3,9 +3,15 @@ import {Box, Flex} from '@chakra-ui/react';
 
 import SociaLink from '../social-link/social-link.component';
 
-import {FaCameraRetro, FaGithubSquare, FaLinkedin, FaYoutubeSquare,} from 'react-icons/fa';
+import {FaCameraRetro, FaGithubSquare, FaLinkedin, FaTelegram, FaYoutubeSquare,} from 'react-icons/fa';
 
 const socialsInfo = [
+    {
+        name: 'telegram',
+        socialUrl: 'https://t.me/S3R3N1TY87',
+        svgIcon: FaTelegram,
+        color: 'telegram',
+    },
     {
         name: 'github',
         socialUrl: 'https://github.com/SergioViacheslaev',
