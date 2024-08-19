@@ -30,12 +30,12 @@ const socialsInfo = [
         svgIcon: FaYoutubeSquare,
         color: 'red',
     },
-    {
+    /*{
         name: 'website',
         socialUrl: 'https://sergeyvyacheslaev.com',
         svgIcon: FaCameraRetro,
         color: 'facebook',
-    }
+    }*/
 ];
 
 const Socials = () => {
