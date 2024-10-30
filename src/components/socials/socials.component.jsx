@@ -8,7 +8,7 @@ import {FaCameraRetro, FaGithubSquare, FaLinkedin, FaTelegram, FaYoutubeSquare,}
 const socialsInfo = [
     {
         name: 'telegram',
-        socialUrl: 'https://t.me/S3R3N1TY87',
+        socialUrl: 'https://t.me/sergeiviacheslaev',
         svgIcon: FaTelegram,
         color: 'telegram',
     },

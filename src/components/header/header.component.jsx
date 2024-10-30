@@ -16,7 +16,7 @@ const navItems = [
     // },
     {
         page: 'CV',
-        routeUrl: 'https://drive.google.com/file/d/1RYfe2G91fDDnMxjJ6HvyJatK-pWjjPTT/view'
+        routeUrl: 'https://spb.hh.ru/applicant/resumes/view?resume=fbee8ae8ff0dc1addf0039ed1f67757967684a'
     },
 ];
 
