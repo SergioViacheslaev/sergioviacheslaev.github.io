@@ -34,12 +34,8 @@ export const backendSkillsList = [
     {
         label: 'Kotlin',
         src: 'https://img.icons8.com/color/64/000000/kotlin.png',
-    },
-    {
-        label: 'Kafka',
-        src: 'https://upload.wikimedia.org/wikipedia/commons/0/0a/Apache_kafka-icon.svg',
     }
-
+   
 ]
 
 export const devOpsSkillsList = [
