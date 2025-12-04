@@ -40,7 +40,7 @@ const ProfileCard = () => {
                    developer
                 <Typist.Backspace count={14} delay={2500}/>
                   <span style={{fontSize: '24px', fontWeight: 'bold', color: '#FF8C00'}}>
-                    TypeScript {''}
+                    Go {''}
                   </span>
                     developer
                 <Typist.Backspace count={20} delay={2500}/>
