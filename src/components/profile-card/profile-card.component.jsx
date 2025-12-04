@@ -43,7 +43,7 @@ const ProfileCard = () => {
                     Go {''}
                   </span>
                     developer
-                <Typist.Backspace count={20} delay={2500}/>
+                <Typist.Backspace count={12} delay={2500}/>
                   <span style={{fontSize: '24px', fontWeight: 'bold', color: '#FF8C00'}}>
                     Kotlin {''}
                   </span>
@@ -58,7 +58,7 @@ const ProfileCard = () => {
                     Full-stack {''}
                   </span>
                     development
-                 <Typist.Backspace count={36} delay={900000000}/>
+                 <Typist.Backspace count={47} delay={900000000}/>
             </span>
                 </Typist>) : ('')}
                 <br/>
