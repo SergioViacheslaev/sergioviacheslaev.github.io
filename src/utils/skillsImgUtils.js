@@ -20,6 +20,14 @@ export const backendSkillsList = [
         src: 'https://img.icons8.com/color/48/null/java-coffee-cup-logo--v1.png',
     },
     {
+        label: 'Kotlin',
+        src: 'https://img.icons8.com/color/64/000000/kotlin.png',
+    },
+    {
+        label: 'GO',
+        src: 'https://img.icons8.com/?size=100&id=zpuT9Srx66JG&format=png&color=00ADD8',
+    },
+    {
         label: 'Spring Boot,Cloud,Security,Data',
         src: 'https://img.icons8.com/color/48/000000/spring-logo.png',
     },
@@ -30,12 +38,8 @@ export const backendSkillsList = [
     {
         label: 'TypeScript',
         src: 'https://img.icons8.com/color/64/000000/typescript.png',
-    },
-    {
-        label: 'Kotlin',
-        src: 'https://img.icons8.com/color/64/000000/kotlin.png',
     }
-   
+
 ]
 
 export const devOpsSkillsList = [
