@@ -65,7 +65,7 @@ const ProfileCard = () => {
                 <List spacing={3}>
                     <ListItem>
                         <ListIcon as={MdCheckCircle} color="green.500"/>
-                        Oracle Certified Java 11 Professional
+                        Oracle Certified Java Professional
                     </ListItem>
                     <ListItem>
                         <ListIcon as={MdCheckCircle} color="green.500"/>
